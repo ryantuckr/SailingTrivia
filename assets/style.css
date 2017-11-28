@@ -1,0 +1,65 @@
+
+
+body {
+
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+      
+}
+
+.content {
+	font-family: 'Dosis', sans-serif;
+	width: 75%;
+	max-width: 800px;
+	min-height: 170px;
+	color: white;
+}
+
+#quiz {
+    font-family: 'Dosis', sans-serif;
+    display:none;
+	margin-top: 100px;
+    font-size: 35px;
+    margin: auto;
+    
+}
+
+#sailing {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+	font-size: smaller;
+}
+
+input[type="radio"] {
+	margin-right: 15px;
+}
+button {
+	position: relative;
+    float:right;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+#warning {
+	color: #800000;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
